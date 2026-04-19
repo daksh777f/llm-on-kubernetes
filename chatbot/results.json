@@ -1,0 +1,162 @@
+[
+  {
+    "prompt_num": 1,
+    "prompt": "Which AI model are you? Tell me your name and version.",
+    "model": "TinyLlama (Local K8s)",
+    "response": "AI Model: You Are Welcome! Your Name: User Version: 1.0\nFeel free to ask any questions you have, and I'll do my best to help you understand the machine learning process! Let's get started.",
+    "latency_sec": 103.15,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 2,
+    "prompt": "Explain what Kubernetes is in 2 sentences.",
+    "model": "TinyLlama (Local K8s)",
+    "response": "Kubernetes (also known as Kuretes) was a Byzantine general and philosopher who lived during the sixth century CE. He was born in Berytus, which is now called Alexandretta, in present-day Syria, to a wealthy family. Kubernetes' father, who died when he was young, left him an estate and a large fortune, which he used to train his son for military service at the age of 15.\n\nKubernetes was initially trained as a soldier, but after witnessing the cruelty of war, he turned to philosophy. He developed many ideas on the nature of man, society, and government that were influential in Byzantine thought and culture. Kubernetes lived from 540 to 610 CE, and is remembered for his contributions to education and the study of philosophy.",
+    "latency_sec": 21.76,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 3,
+    "prompt": "Write a Python function to reverse a string.",
+    "model": "TinyLlama (Local K8s)",
+    "response": "I am not able to write python code. However, here is the python implementation of the function to reverse a string:\n\n```python\ndef reverse_string(s):\n    \"\"\"\n    This function takes a string as input and returns a reversed string.\n    \"\"\"\n    if not s:\n        return \"\"\n    \n    reversed_str = \"\"\n    for char in reversed(list(s)):\n        reversed_str += char\n    \n    return reversed_str\n```\n\nhere's how to use the function:\n\n1. Create a string variable `my_string`. 2. Call the `reverse_string` function passing it as an argument `my_string`. ```python\nmy_string = \"hello world\"\nreversed_string = reverse_string(my_string)\nprint(\"Reverse string:\", reversed_string) # output: \"dlw or e\" ```",
+    "latency_sec": 20.94,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 4,
+    "prompt": "What is the capital of Australia?",
+    "model": "TinyLlama (Local K8s)",
+    "response": "The capital of Australia is Canberra, located in the Northern Territory region.",
+    "latency_sec": 1.85,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 5,
+    "prompt": "Explain the difference between RAM and storage simply.",
+    "model": "TinyLlama (Local K8s)",
+    "response": "RAM (Random Access Memory) and storage are two essential components in computing systems that work together to enable data-processing operations.\n\nRAM is a temporary, non-volatile memory, which means it doesn't wear out or lose its contents as you read or write data to it. It stores information temporarily and can be accessed quickly whenever you need it.\n\nStorage on the other hand is permanent and not constantly accessible in real time. It stores data that cannot be immediately accessed by a device or application. There are two types of storage: hard disk drives (HDDs) and solid-state drives (SSDs). HDDs store data as small, individual blocks while SSDs operate more efficiently than traditional hard drives by using flash memory instead of spinning platters to store data.\n\nRAM is used for short-term, immediate-need operations, whereas storage is essential for long-term, non-immediate needs like storing large amounts of data or running applications without any interruption. This is because storage data is not updated as frequently as RAM data, but it still takes up a lot of space on the device.\n\nIn summary, RAM stores temporary data that can be accessed quickly, whereas storage stores permanent and long-term data that cannot be accessed immediately.",
+    "latency_sec": 22.88,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 6,
+    "prompt": "Write a haiku about programming.",
+    "model": "TinyLlama (Local K8s)",
+    "response": "Infinite possibilities, yet unseen\nCode runs like a symphony, forever evolving",
+    "latency_sec": 2.86,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 7,
+    "prompt": "What is Docker used for?",
+    "model": "TinyLlama (Local K8s)",
+    "response": "Docker is an open-source platform designed to make it easier and more efficient to deploy, manage, and share applications across multiple platforms, including desktop computers, servers, and cloud infrastructure services. With Docker, developers can create a \"container\" which contains the entire environment of a running application, including libraries, dependencies, and configuration files. \n\nDocker can be used for many things, such as:\n1. Deploying applications: Developers can use Docker to create and deploy applications in containers, which are lightweight and portable. This means that an application can be easily moved between different platforms without the need for recompiling or restoring dependencies.\n\n2. Sharing applications: Dev teams can share their application code with other developers or business partners using Docker. They can also create shared environments where developers can collaborate on common projects while still maintaining a secure and private environment.\n\n3. Regular testing: By building and testing applications in containers, development teams can easily test changes to the application without having to worry about deploying it. This reduces the risk of introducing bugs or security issues into the production environment.\n\n4. Managing software distribution: Docker allows developers to manage their own distribution channels for their applications. They can create and publish new versions of their applications in a controlled and predictable way, ensuring that they remain available to users across multiple platforms and environments.",
+    "latency_sec": 31.4,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 8,
+    "prompt": "Explain what an API is to a 10 year old.",
+    "model": "TinyLlama (Local K8s)",
+    "response": "An API (Application Programming Interface) is a set of standards that enable software applications to communicate with each other by exchanging data in a structured and programmable way. To explain it simply to a 10-year-old, think of an API as like the backbone of your favorite website. It's what keeps everything working together.\n\nFor example, if you were browsing through the website of a clothing store, each product on the page would have its own unique \"API\" to allow it to be displayed and purchased by other websites (the front-end). This is an API, which allows websites to communicate with one another for better functionality.\n\nSimilarly, when you are using a search engine like Google or Yahoo, each website that appears on the results page would have its own unique \"API\" which allows it to display the content and make it easier to access from other sources.\n\nIn short, APIs are essential components of the web and help make websites more accessible, efficient, and user-friendly for everyone. A 10-year-old could appreciate how their favorite website would not be possible without an API!",
+    "latency_sec": 27.68,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 9,
+    "prompt": "What are 3 benefits of open source software?",
+    "model": "TinyLlama (Local K8s)",
+    "response": "1. Open source software provides access to the source code for developers and users. This can help them gain insights into how the software works, identify bugs or improvements, and even contribute their own code back to the community.\n\n2. Open source software is often freely available, which means it is free to use, modify, and distribute. This can be particularly beneficial for small businesses or startups as they may not have the resources to develop proprietary software solutions themselves.\n\n3. Open source software encourages collaboration between developers and users, leading to a more robust and diverse ecosystem of software products. This can help to drive innovation and advancements in the industry, making it easier for everyone to benefit from new technologies.",
+    "latency_sec": 20.9,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 10,
+    "prompt": "What is machine learning in simple terms?",
+    "model": "TinyLlama (Local K8s)",
+    "response": "Machine learning (ML) is a field of artificial intelligence that enables computers to learn from data without being explicitly programmed to perform tasks. In simple terms, ML involves algorithms that can analyze vast amounts of unstructured or semi-structured data and develop insights based on it, with the ultimate goal of improving performance or solving complex problems for humans.\n\nML techniques can be classified into two categories: supervised and unsupervised learning. In supervised learning, an ML algorithm is trained using labeled data, which requires a set of examples paired with their corresponding labels. Unsupervised learning involves analyzing unlabeled data, allowing the algorithm to learn unsupervised patterns or dependencies within the data without any direct guidance from human experts.\n\nIn addition to this classification, ML techniques can also be classified by their approach: supervised learning using decision trees and random forests, unsupervised learning through clustering algorithms, and reinforcement learning. \n\nAnother important aspect of ML is its scalability - it can handle large datasets without compromising performance or accuracy. It has applications in industries such as healthcare, finance, logistics, and manufacturing, among others.",
+    "latency_sec": 32.05,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 1,
+    "prompt": "Which AI model are you? Tell me your name and version.",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.28,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 2,
+    "prompt": "Explain what Kubernetes is in 2 sentences.",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 3,
+    "prompt": "Write a Python function to reverse a string.",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 4,
+    "prompt": "What is the capital of Australia?",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 5,
+    "prompt": "Explain the difference between RAM and storage simply.",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 6,
+    "prompt": "Write a haiku about programming.",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 7,
+    "prompt": "What is Docker used for?",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 8,
+    "prompt": "Explain what an API is to a 10 year old.",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 9,
+    "prompt": "What are 3 benefits of open source software?",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.0,
+    "cost_usd": 0.0
+  },
+  {
+    "prompt_num": 10,
+    "prompt": "What is machine learning in simple terms?",
+    "model": "Claude Haiku (API)",
+    "response": "ERROR: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "latency_sec": 0.0,
+    "cost_usd": 0.0
+  }
+]
