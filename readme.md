@@ -17,6 +17,31 @@ monitoring and a Next.js chatbot UI.
 - **Prometheus + Grafana** — Cluster monitoring
 - **Next.js + Tailwind** — Chatbot frontend
 
+## Run it yourself
+
+Requirements: Docker, [k3d](https://k3d.io), `kubectl`, Node.js 18+, Python 3.10+.
+
+```bash
+# 1. Local cluster + Ollama
+k3d cluster create llm
+kubectl apply -f ollama.yaml
+kubectl -n llm rollout status deploy/ollama
+kubectl -n llm exec deploy/ollama -- ollama pull tinyllama
+kubectl -n llm port-forward svc/ollama-service 11434:11434
+
+# 2. Chatbot UI (new terminal) — calls http://127.0.0.1:11434
+cd chatbot
+npm install
+npm run dev
+
+# 3. Benchmark (new terminal) — writes results.json
+pip install requests anthropic
+export ANTHROPIC_API_KEY=...   # your own key
+python compare.py
+```
+
+Raw per-prompt latencies and responses are in [`results.json`](results.json).
+
 ## Results
 
 | Model | Avg Speed | Cost |
